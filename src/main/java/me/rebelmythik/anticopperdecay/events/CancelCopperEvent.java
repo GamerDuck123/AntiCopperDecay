@@ -16,7 +16,7 @@ public class CancelCopperEvent implements Listener {
 
     @EventHandler
     public void CopperBlock(BlockFormEvent event) {
-        if (event.getBlock().getType() == Material.COPPER_BLOCK) {
+        if (event.getBlock().getType().toString().contains("COPPER")) {
             event.setCancelled(true);
         }
     }
