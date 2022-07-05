@@ -5,8 +5,17 @@
 *.ipr
 *.iws
 
+*.bak
+commit.txt
+
 # IntelliJ
 out/
+
+# Eclipse
+.classpath
+.project
+.settings/ 
+.metadata/
 
 # Compiled class file
 *.class
