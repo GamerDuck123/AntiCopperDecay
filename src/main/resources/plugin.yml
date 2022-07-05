@@ -1,0 +1,4 @@
+name: AntiCopperDecay
+version: '${project.version}'
+main: me.rebelmythik.anticopperdecay.AntiCopperDecay
+api-version: 1.18
