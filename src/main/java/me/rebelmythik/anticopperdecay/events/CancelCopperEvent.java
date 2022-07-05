@@ -6,11 +6,11 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockFormEvent;
 
-public class cancelcopperevent implements Listener {
+public class CancelCopperEvent implements Listener {
 
     public AntiCopperDecay plugin;
 
-    public cancelcopperevent(AntiCopperDecay plugin) {
+    public CancelCopperEvent(AntiCopperDecay plugin) {
         this.plugin = plugin;
     }
 
